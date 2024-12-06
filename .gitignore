@@ -1,0 +1,28 @@
+# Ambientes virtuais
+venv/
+.env/
+
+# Configurações do sistema operacional
+*.DS_Store
+Thumbs.db
+
+# Arquivos compilados do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Migrations não aplicadas ou em cache
+**/migrations/*
+
+# Diretórios de arquivos estáticos e de mídia gerados
+staticfiles/
+media/
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados local
+*.sqlite3
+
+# Configurações locais e variáveis de ambiente
+.env
